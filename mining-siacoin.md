@@ -49,18 +49,18 @@ Once extracted, edit the start.bat file
 
 Delete it's contents and put in the following
 
-setx GPU_FORCE_64BIT_PTR 0
-setx GPU_MAX_HEAP_SIZE 100
-setx GPU_USE_SYNC_OBJECTS 1
-setx GPU_MAX_ALLOC_PERCENT 100
-setx GPU_SINGLE_ALLOC_PERCENT 100
+    setx GPU_FORCE_64BIT_PTR 0
+    setx GPU_MAX_HEAP_SIZE 100
+    setx GPU_USE_SYNC_OBJECTS 1
+    setx GPU_MAX_ALLOC_PERCENT 100
+    setx GPU_SINGLE_ALLOC_PERCENT 100
 
-EthDcrMiner64.exe -dpool sia-us-west1.nanopool.org:9999 -ewal wallet_address/machine_nick/email -mode 1
+    EthDcrMiner64.exe -dpool sia-us-west1.nanopool.org:9999 -ewal wallet_address/machine_nick/email -mode 1
 
 
-wallet_address: Address of the wallet you created using geth. Do not use coinbase ethereum wallet address. 
-machine_nick:   Give your machine a nickname of your choosing
-email:          Email you want to be notified at when the miner has a status change
+**wallet_address:** Address of the wallet you created using geth. Do not use coinbase ethereum wallet address. 
+**machine_nick:**   Give your machine a nickname of your choosing
+**email:**          Email you want to be notified at when the miner has a status change
 
 
 Once again, do not put your coinbase address as it can change periodically and you will lose your mined funds
@@ -73,14 +73,14 @@ Once extracted, edit the start_eth_only bash script
 
 Delete it's contents and put in the following
 
-setx GPU_MAX_ALLOC_PERCENT 100
-setx GPU_SINGLE_ALLOC_PERCENT 100
+    setx GPU_MAX_ALLOC_PERCENT 100
+    setx GPU_SINGLE_ALLOC_PERCENT 100
 
-EthDcrMiner64.exe -dpool sia-us-west1.nanopool.org:9999 -ewal wallet_address/machine_nick/email -mode 1
+    EthDcrMiner64.exe -dpool sia-us-west1.nanopool.org:9999 -ewal wallet_address/machine_nick/email -mode 1
 
-wallet_address: Address of the wallet you created using geth. Do not use coinbase ethereum wallet address. 
-machine_nick:   Give your machine a nickname of your choosing
-email:          Email you want to be notified at when the miner has a status change
+**wallet_address:** Address of the wallet you created using geth. Do not use coinbase ethereum wallet address. 
+**machine_nick:**   Give your machine a nickname of your choosing
+**email:**          Email you want to be notified at when the miner has a status change
 
 Once again, do not put your coinbase address as it can change periodically and you will lose your mined funds
 
