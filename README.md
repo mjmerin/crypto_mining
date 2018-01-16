@@ -15,7 +15,7 @@ With that said, mined cryptocurrency can be used to purchase other cryptocurrenc
 Mining of any cryptocurrency mentioned in this guide is primarily a GPU intensive task. Therefore, a computer with a very fast CPU, much RAM or large storage capacity is not required. For example, a Core i3 2120 from 2010 with 4 GB of RAM and 380 GB storage capacity is plenty sufficient. 
 
 ### Operating System
-An operating system such as Windows or Ubuntu is recommended. 
+An operating system such as Windows or Ubuntu is recommended. In some cases, mining using a Linux based OS has shown to have higher hash rates. 
 
 ### Graphics Cards
 Any high end graphics card of recent vintage can be suitable for mining. Graphics cards with 4 GB or more of RAM are mandatory.   
@@ -39,7 +39,15 @@ As of this writing (December 2017), the following are recommended. Please see th
 4. RX570 (120W)
 5. RX580 (185W)
 6. RX Vega 56 (210W)
-7. RX Vega 64 (295 W)
+7. RX Vega 64 (295W)
+
+### Drivers
+
+#### Windows
+Latest drivers from AMD/NVIDIA are sufficient.
+
+#### Linux Based OS
+When using an AMD graphics card, use the following driver [AMDGPU-Pro 17.40](http://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Driver-for-Linux-Release-Notes.aspx) released October 30th, 2017. 
 
 ### Cooling
 Graphics cards running several hours a day will generate a lot of heat. At the bare minimum, a well ventilated case with enough fans is a requirement. 

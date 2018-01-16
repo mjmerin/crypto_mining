@@ -21,7 +21,7 @@ This guide assumes you have read through [README](README.md) and have the suffic
 3. RX570 (120W) (~22 MH/s)
 4. RX580 (185W) (~24 MH/s)
 5. RX Vega 56 (210W) (~32 MH/s)
-6. RX Vega 64 (295 W) (~34 MH/s)
+6. RX Vega 64 (295W) (~34 MH/s)
 
 # Getting A Wallet
 
@@ -97,6 +97,8 @@ Delete it's contents and put in the following
 Once again, do not put your coinbase address as it can change periodically and you will lose your mined funds
 
 Execute the edited script on your terminal
+
+    ./start_eth_only.bash
 
 # Monitor Mining Progress
 

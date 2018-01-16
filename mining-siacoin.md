@@ -1,4 +1,4 @@
-How to Mine Ethereum
+How to Mine Siacoin
 =======================
 
 # Intro
@@ -11,7 +11,7 @@ This guide assumes you have read through [README](README.md) and have the suffic
 1. GTX 1050 TI (75W) (~)
 2. GTX 1060 (120W) (~1100 MH/s)
 3. GTX 1070 (150W) (~1400 MH/s)
-4. GTX 1070 TI (180W) (~)
+4. GTX 1070 TI (180W) (~1700 MH/s)
 5. GTX 1080 (180W) (~2200 MH/s)
 6. GTX 1080 TI (250W) (~3000 MH/s)
 
@@ -21,7 +21,7 @@ This guide assumes you have read through [README](README.md) and have the suffic
 3. RX570 (120W) (~)
 4. RX580 (185W) (~)
 5. RX Vega 56 (210W) (~)
-6. RX Vega 64 (295 W) (~)
+6. RX Vega 64 (295W) (~)
 
 # Getting A Wallet
 
@@ -58,7 +58,7 @@ Delete it's contents and put in the following
     EthDcrMiner64.exe -dpool sia-us-west1.nanopool.org:9999 -ewal wallet_address/machine_nick/email -mode 1
 
 
-**wallet_address:** Address of the wallet you created using geth. Do not use coinbase ethereum wallet address. 
+**wallet_address:** Address of the wallet you created using the sia wallet. Do not use coinbase ethereum wallet address. 
 **machine_nick:**   Give your machine a nickname of your choosing
 **email:**          Email you want to be notified at when the miner has a status change
 
@@ -78,13 +78,15 @@ Delete it's contents and put in the following
 
     EthDcrMiner64.exe -dpool sia-us-west1.nanopool.org:9999 -ewal wallet_address/machine_nick/email -mode 1
 
-**wallet_address:** Address of the wallet you created using geth. Do not use coinbase ethereum wallet address. 
+**wallet_address:** Address of the wallet you created using the sia wallet. Do not use coinbase ethereum wallet address. 
 **machine_nick:**   Give your machine a nickname of your choosing
 **email:**          Email you want to be notified at when the miner has a status change
 
 Once again, do not put your coinbase address as it can change periodically and you will lose your mined funds
 
 Execute the edited script on your terminal
+
+    ./start_sia_only.bash
 
 # Monitor Mining Progress
 
